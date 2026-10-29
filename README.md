@@ -197,7 +197,6 @@ Quickly rejoin tagged friends using destinations supplied by the online server.
 - Quick Teleport references **Tuttertep's Comfy Map** for server teleport-destination ordering and the tagged-friend workflow.
 
 ## License
-I think i should declare at least somewhere that i use Codex in my workflow.
 
 See [LICENSE](LICENSE).
 
