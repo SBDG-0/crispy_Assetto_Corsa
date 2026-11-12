@@ -190,8 +190,6 @@ Quickly rejoin tagged friends using destinations supplied by the online server.
 **This uses server-defined teleport points, not arbitrary coordinates beside a friend.** It requires an online server with teleport destinations, permission to use an available point, and a compatible CSP build. Distances are straight-line distances rather than distances along the road. The custom binding starts unassigned and can be configured inside the app.
 
 ## Credits
-
-- made with ❤️ by **SavageBulldogOG**
 - Cam Select includes code from **x4fab's Unbound**; its source is referenced in the app manifest.
 - FFB Controls follows parts of **x4fab's Controller Tweaks** for settings layout and behavior.
 - Quick Teleport references **Tuttertep's Comfy Map** for server teleport-destination ordering and the tagged-friend workflow.
