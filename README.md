@@ -197,7 +197,11 @@ Quickly rejoin tagged friends using destinations supplied by the online server.
 - Quick Teleport references **Tuttertep's Comfy Map** for server teleport-destination ordering and the tagged-friend workflow.
 
 ## License
-
-See [LICENSE](LICENSE).
-
+This software is provided "as is", without warranty of any kind. 
+<br />  It is free to use, modify, and distribute under one condition: 
+<br />  Only thing asked of you is to credit the author (SavageBulldog) and include a link back to the original repository.
+```
+https://github.com/SBDG-0/crispy_assetto_corsa
+```
 ---
+made with ❤️ by SavageBulldogOG
