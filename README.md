@@ -1,28 +1,32 @@
 # Crispy Assetto Corsa Apps
 
+## Description
+
 CSP Lua apps by **SavageBulldogOG** for everyday driving, drifting, spectating, and adjusting your Assetto Corsa experience.
 
-## At a glance
+## Features
 
-| App | What it adds |
-| --- | --- |
-| Crispy Audio UI + Shortcut UI | Quick volume presets, mute, and supported car controls. |
-| Crispy Cam Select | Camera switching, driver selection, and replay lap navigation. |
-| Crispy Driver Tags | Custom driver labels with flags, ping, icons, colors, and fading. |
-| Crispy FFB Controls | Per-car gain defaults, global FFB adjustments, and live force graphs. |
-| Crispy Pedals UI | A customizable pedal, handbrake, steering, and FFB overlay. |
-| Crispy Setup Loader | Remember a setup per car and attempt to restore it on joining. |
-| Crispy Quick Teleport | Jump to an available server teleport point near a tagged friend. |
+| App                           | What it adds                                                          |
+| ----------------------------- | --------------------------------------------------------------------- |
+| Crispy Audio UI + Shortcut UI | Quick volume presets, mute, and supported car controls.               |
+| Crispy Cam Select             | Camera switching, driver selection, and replay lap navigation.        |
+| Crispy Driver Tags            | Custom driver labels with flags, ping, icons, colors, and fading.     |
+| Crispy FFB Controls           | Per-car gain defaults, global FFB adjustments, and live force graphs. |
+| Crispy Pedals UI              | A customizable pedal, handbrake, steering, and FFB overlay.           |
+| Crispy Setup Loader           | Remember a setup per car and attempt to restore it on joining.        |
+| Crispy Quick Teleport         | Jump to an available server teleport point near a tagged friend.      |
+
+## Requirements
+
+These apps are written for Assetto Corsa with **Custom Shaders Patch (CSP)**. Content Manager is used for the associated driver tags and friend workflow.
+A minimum CSP version has not been established for the complete collection; individual features depend on the APIs available in your build.
 
 ## Installation
 
-These apps are written for Assetto Corsa with **Custom Shaders Patch (CSP)**. Content Manager is used for the associated driver tags and friend workflow. 
-A minimum CSP version has not been established for the complete collection; individual features depend on the APIs available in your build.
-
 1. Download and extract this repository.
 2. Copy the desired `crispy_*` folders into `assettocorsa/apps/lua/`. Keep each app's files and subfolders together.
-3. Start a session and open the desired app from the in-game app sidebar. 
-    - Setup Loader only appears in the setup menu.
+3. Start a session and open the desired app from the in-game app sidebar.
+   - Setup Loader only appears in the setup menu.
 
 ## Crispy Audio UI + Shortcut UI
 
@@ -31,16 +35,18 @@ Folder: `crispy_audio_ui`
 Two compact windows keep audio and supported car functions within reach.
 
 ### Audio window
+
 <table>
   <tr>
     <td align="center" valign="top" width="50%">
-      <p><strong>Audio controls</strong></p>
-      <img src="https://github.com/user-attachments/assets/e9378957-63c7-486c-bb7d-5c22b7e68251" width="281" alt="Audio controls" />
+      <p><strong>Preview</strong></p>
+      <img src="https://github.com/user-attachments/assets/e9378957-63c7-486c-bb7d-5c22b7e68251" width="260" alt="Audio controls" />
     </td>
     <td align="center" valign="top" width="50%">
       <p><strong>Audio settings</strong></p>
       <img src="https://github.com/user-attachments/assets/db1e470a-edad-4719-97d1-d6fdf140cc77" width="230" alt="Audio settings" />
     </td>
+    
   </tr>
 </table>
 
@@ -79,12 +85,11 @@ Controls depend on the capabilities exposed by the current car. In the current c
 
 Folder: `crispy_cam_select`
 
-A compact panel for choosing your view and the car you want to watch.
-
 <table>
   <tr>
     <td valign="top" width="70%">
-      <ul>
+      A compact panel for choosing your view and the car you want to watch.
+      <ul><br>
         <li>Cycle through driving cameras using <strong>Camera</strong>.</li>
         <li>Switch to <strong>Free</strong>, <strong>Orbit</strong>, <strong>Heli</strong>, <strong>Track</strong>, or <strong>Car</strong> camera modes.</li>
         <li>Toggle several external camera modes back to the last driving-camera mode.</li>
@@ -152,8 +157,9 @@ Customizable labels above cars, designed to keep driver information readable wit
 
 The blacklist and disable controls advise reloading the session to apply changes. The base visibility distance is combined with fade cutoffs, so labels can disappear before that maximum distance.
 
+## Crispy FFB Controls
 
-## Crispy FFB Controls `work in progress`
+**Work in progress.**
 
 Folder: `crispy_ffb_controls`
 
@@ -217,7 +223,9 @@ These global controls save to AC/CSP configuration files and reload control sett
 
 The graph shows normalized signals, not measured wheel torque in Nm. Output-limit samples indicate saturation, not a complete diagnosis of clipping. The Info page shows configured values; that alone does not establish that a feature is active for the current car.
 
-## Crispy Pedals UI `work in progress`
+## Crispy Pedals UI
+
+**Work in progress.**
 
 Folder: `crispy_pedals_ui`
 
@@ -226,7 +234,7 @@ A compact input overlay with optional steering and force-feedback information.
 <table>
   <tr>
     <td align="center" valign="top">
-    <p><strong>Settings<strong><p/>
+    <p><strong>Settings</strong></p>
       <img src="https://github.com/user-attachments/assets/2f423b7c-9410-4e8c-bcd5-edfd77786703" width="640" alt="Pedal overlay and settings" />
     </td>
   </tr>
@@ -246,7 +254,9 @@ A compact input overlay with optional steering and force-feedback information.
 
 FFB indicators use CSP's final normalized signal; they do not measure physical wheel torque. The main overlay captures the focused car when the script loads, so switching spectator focus later is not explicitly handled by the current implementation.
 
-## Crispy Setup Loader `work in progress`
+## Crispy Setup Loader
+
+**Work in progress.**
 
 Folder: `crispy_setup_loader`
 
@@ -255,7 +265,7 @@ Remember a preferred saved setup for each car, independent of track, and attempt
 <table>
   <tr>
     <td align="center" valign="top">
-    <p><strong>Setup Page<strong><p/>
+    <p><strong>Setup Page</strong></p>
       <img src="https://github.com/user-attachments/assets/eef88013-98fc-4229-9045-7cb202c8ca9e" width="560" alt="Setup Loader in the setup menu" />
     </td>
   </tr>
@@ -286,7 +296,9 @@ Remember a preferred saved setup for each car, independent of track, and attempt
 
 **Setup loading requires an editable setup.** Fixed-setup restrictions still apply. The app's implementation notes that CSP supports setup loading in the setup menu; experimental pre-menu loading is not guaranteed to succeed or finish before you click Drive. Automatic loading stops after the initial attempt window. Automatic-loading option changes take effect on the next join.
 
-## Crispy Quick Teleport `work in progress`
+## Crispy Quick Teleport
+
+**Work in progress.**
 
 Folder: `crispy_teleport_to_friend`
 
@@ -330,16 +342,19 @@ Quickly rejoin tagged friends using destinations supplied by the online server.
 **This uses server-defined teleport points, not arbitrary coordinates beside a friend.** It requires an online server with teleport destinations, permission to use an available point, and a compatible CSP build. Distances are straight-line distances rather than distances along the road. The custom binding starts unassigned and can be configured inside the app.
 
 ## Credits
+
 - Cam Select includes code from **x4fab's Unbound**; its source is referenced in the app manifest.
 - FFB Controls follows parts of **x4fab's Controller Tweaks** for settings layout and behavior.
 - Quick Teleport references **Tuttertep's Comfy Map** for server teleport-destination ordering and the tagged-friend workflow.
 
-## License
-This software is provided "as is", without warranty of any kind. 
-<br />  It is free to use, modify, and distribute under one condition: 
-<br />  Only thing asked of you is to credit the author (SavageBulldog) and include a link back to the original repository.
-```
-https://github.com/SBDG-0/crispy_assetto_corsa
-```
 ---
+
+## Reuse
+
+This software is provided "as is", without warranty of any kind. It is free to use, modify, and distribute provided you credit the author (SavageBulldog) and include a link back to the original repository.
+
+[Original repository](https://github.com/SBDG-0/crispy_assetto_corsa)
+
+---
+
 made with ❤️ by SavageBulldogOG
