@@ -1,3 +1,9 @@
+
+
+
+
+
+
 # Crispy Assetto Corsa Apps
 
 CSP Lua apps by **SavageBulldogOG** for everyday driving, drifting, spectating, and adjusting your Assetto Corsa experience.
@@ -32,6 +38,10 @@ Folder: `crispy_audio_ui`
 Two compact windows keep audio and supported car functions within reach.
 
 ### Audio window
+<p align=center>
+<img width="281" height="177" alt="audio_ui" src="https://github.com/user-attachments/assets/e9378957-63c7-486c-bb7d-5c22b7e68251" />
+<img width="230" height="162" alt="audio_ui" src="https://github.com/user-attachments/assets/db1e470a-edad-4719-97d1-d6fdf140cc77" />
+</p>
 
 - Three quick-volume buttons select between **10/20%**, **30/50%**, and **80/99%**, based on the current volume.
 - The volume readout also acts as a mute/unmute button.
@@ -40,6 +50,11 @@ Two compact windows keep audio and supported car functions within reach.
 - Adjustable background contrast.
 
 ### Shortcut window
+
+<img width="395" height="277" alt="shortcut_ui" src="https://github.com/user-attachments/assets/405e5786-0557-435c-98be-ab36b4a041f3" />
+<img width="390" height="274" alt="shortcut_ui" src="https://github.com/user-attachments/assets/581e695f-4be4-4b54-82dc-a4ae0744eadf" />
+
+<br>
 
 - Wiper mode selection.
 - Headlight control, including off/low/high beams on supported cars.
@@ -52,6 +67,8 @@ Two compact windows keep audio and supported car functions within reach.
 Controls depend on the capabilities exposed by the current car. In the current code, the basic headlight checkbox for cars without low/high-beam selection is also gated by an internal button-count setting; it may not appear with the default settings.
 
 ## Crispy Cam Select
+
+<img align=right width="267" height="646" alt="cam_select" src="https://github.com/user-attachments/assets/9c46fa1e-4eea-49e0-a3df-2802ca981d3f" />
 
 Folder: `crispy_cam_select`
 
@@ -75,6 +92,13 @@ Folder: `crispy_driver_tags`
 
 Customizable labels above cars, designed to keep driver information readable without keeping every label fully visible at all distances.
 
+<img width="336" height="283" alt="driver_tags" src="https://github.com/user-attachments/assets/be9583e6-f0c2-478b-a898-f0f6bc803178" />
+<img width="336" height="268" alt="driver_tags0" src="https://github.com/user-attachments/assets/6152bbcd-b3ba-4a15-9859-a5e9afaea2e6" />
+<img width="337" height="307" alt="driver_tags1" src="https://github.com/user-attachments/assets/6b1bd0ac-3e61-4e9d-96d5-a66c7dfb343d" />
+<img width="337" height="214" alt="driver_tags4" src="https://github.com/user-attachments/assets/5071d8d4-c48b-4097-843f-350cd48c3b59" />
+
+<br>
+
 - Driver names with optional national flags or custom driver icons.
 - Online ping readouts with colors and warning symbols for higher latency.
 - Recognized bracketed name tags are replaced with icons: `[STREAMER]` and `[TTV]` use the Twitch icon; `[ADMIN]` uses the admin icon; `[COOL_KID]`, `[DRIFT_KING]`, `[BAD_DRIVER]`, and `[ANGLE_MASTER]` use the Discord icon. Other bracketed tags remain as text.
@@ -89,11 +113,20 @@ Customizable labels above cars, designed to keep driver information readable wit
 
 The blacklist and disable controls advise reloading the session to apply changes. The base visibility distance is combined with fade cutoffs, so labels can disappear before that maximum distance.
 
+<img width="339" height="484" alt="driver_tags5" src="https://github.com/user-attachments/assets/f4597913-08c0-4bb9-8384-1f7c7e02fe84" />
+
 ## Crispy FFB Controls `work in progress`
 
 Folder: `crispy_ffb_controls`
 
 Manage car-specific force-feedback gain, tune native AC/CSP settings, and inspect the signals while driving.
+
+<img width="447" height="596" alt=" ffb_settings1" src="https://github.com/user-attachments/assets/b0da4435-a507-4a06-a1c9-7f9376991c3a" />
+<img width="445" height="542" alt=" ffb_settings2" src="https://github.com/user-attachments/assets/f51b8cdd-976d-4c2b-853e-356416fefe55" />
+<img width="443" height="822" alt=" ffb_settings3" src="https://github.com/user-attachments/assets/d712fc06-8dbc-467a-b94b-84dc15eb380b" />
+<img width="429" height="686" alt=" ffb_settings4" src="https://github.com/user-attachments/assets/40698cdf-ae65-449c-8914-491d59463ec4" />
+
+<br>
 
 ### Per-car defaults
 
@@ -136,6 +169,10 @@ Folder: `crispy_pedals_ui`
 
 A compact input overlay with optional steering and force-feedback information.
 
+<img width="800" height="389" alt="pedals_ui" src="https://github.com/user-attachments/assets/2f423b7c-9410-4e8c-bcd5-edfd77786703" />
+
+<br>
+
 - Clutch, brake, and throttle bars with smoothing.
 - Optional handbrake bar and/or a handbrake indicator over the brake bar.
 - Custom handbrake text or symbol.
@@ -156,6 +193,12 @@ Folder: `crispy_setup_loader`
 
 Remember a preferred saved setup for each car, independent of track, and attempt to restore it once per join.
 
+<img width="777" height="738" alt="auto_setup_s14" src="https://github.com/user-attachments/assets/eef88013-98fc-4229-9045-7cb202c8ca9e" />
+<img width="382" height="364" alt="auto_setup_e92" src="https://github.com/user-attachments/assets/d8adba10-1aa3-478f-9388-06aebb086525" />
+<img width="372" height="352" alt="auto_setup" src="https://github.com/user-attachments/assets/e74963ed-3b45-4258-9555-23be38dc1334" />
+
+<br>
+
 - Choose from the car's saved `.ini` setups in generic and track folders.
 - **Remember selected** stores a preferred setup for that car.
 - Tracks setup loads and saves made through the original AC setup interface, remembering explicit setup files without replacing the preference with `last.ini`.
@@ -174,6 +217,13 @@ Remember a preferred saved setup for each car, independent of track, and attempt
 Folder: `crispy_teleport_to_friend`
 
 Quickly rejoin tagged friends using destinations supplied by the online server.
+
+<img width="368" height="321" alt="quick_tp1" src="https://github.com/user-attachments/assets/d79cfaf0-99a0-46c7-8ace-12e799f77335" />
+<img width="374" height="476" alt="quick_tp2" src="https://github.com/user-attachments/assets/05d73643-8fb7-4bf9-97c0-765229f7b8d7" />
+<img width="368" height="422" alt="quick_tp3" src="https://github.com/user-attachments/assets/026a5c13-611a-4de1-acc9-a37bfa7954f1" />
+<img width="464" height="444" alt="quick_tp4" src="https://github.com/user-attachments/assets/92b1b9c3-d4bd-4f76-b7dc-bc43263e35ca" />
+
+<br>
 
 - Lists connected players tagged as friends in Content Manager, sorted by name.
 - Shows the chosen destination and its distance from each friend.
