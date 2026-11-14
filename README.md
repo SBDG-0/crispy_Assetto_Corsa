@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # Crispy Assetto Corsa Apps
 
 CSP Lua apps by **SavageBulldogOG** for everyday driving, drifting, spectating, and adjusting your Assetto Corsa experience.
@@ -30,7 +24,6 @@ A minimum CSP version has not been established for the complete collection; indi
 3. Start a session and open the desired app from the in-game app sidebar. 
     - Setup Loader only appears in the setup menu.
 
-
 ## Crispy Audio UI + Shortcut UI
 
 Folder: `crispy_audio_ui`
@@ -38,10 +31,18 @@ Folder: `crispy_audio_ui`
 Two compact windows keep audio and supported car functions within reach.
 
 ### Audio window
-<p align=center>
-<img width="281" height="177" alt="audio_ui" src="https://github.com/user-attachments/assets/e9378957-63c7-486c-bb7d-5c22b7e68251" />
-<img width="230" height="162" alt="audio_ui" src="https://github.com/user-attachments/assets/db1e470a-edad-4719-97d1-d6fdf140cc77" />
-</p>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Audio controls</strong></p>
+      <img src="https://github.com/user-attachments/assets/e9378957-63c7-486c-bb7d-5c22b7e68251" width="281" alt="Audio controls" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Audio settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/db1e470a-edad-4719-97d1-d6fdf140cc77" width="230" alt="Audio settings" />
+    </td>
+  </tr>
+</table>
 
 - Three quick-volume buttons select between **10/20%**, **30/50%**, and **80/99%**, based on the current volume.
 - The volume readout also acts as a mute/unmute button.
@@ -51,10 +52,18 @@ Two compact windows keep audio and supported car functions within reach.
 
 ### Shortcut window
 
-<img width="395" height="277" alt="shortcut_ui" src="https://github.com/user-attachments/assets/405e5786-0557-435c-98be-ab36b4a041f3" />
-<img width="390" height="274" alt="shortcut_ui" src="https://github.com/user-attachments/assets/581e695f-4be4-4b54-82dc-a4ae0744eadf" />
-
-<br>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Car shortcuts</strong></p>
+      <img src="https://github.com/user-attachments/assets/405e5786-0557-435c-98be-ab36b4a041f3" width="320" alt="Car shortcuts" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Shortcut settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/581e695f-4be4-4b54-82dc-a4ae0744eadf" width="320" alt="Shortcut settings" />
+    </td>
+  </tr>
+</table>
 
 - Wiper mode selection.
 - Headlight control, including off/low/high beams on supported cars.
@@ -68,23 +77,31 @@ Controls depend on the capabilities exposed by the current car. In the current c
 
 ## Crispy Cam Select
 
-<img align=right width="267" height="646" alt="cam_select" src="https://github.com/user-attachments/assets/9c46fa1e-4eea-49e0-a3df-2802ca981d3f" />
-
 Folder: `crispy_cam_select`
 
 A compact panel for choosing your view and the car you want to watch.
 
-- Cycle through driving cameras using **Camera**.
-- Switch to **Free**, **Orbit**, **Heli**, **Track**, or **Car** camera modes.
-- Toggle several external camera modes back to the last driving-camera mode.
-- Cycle through six car-camera positions by pressing **Car** again while that mode is active.
-- Select a driver from the session list to focus their car, with driver-tag colors in the list.
-- Return to your own car with **Focus own view**.
-- Jump to the previous or next lap during replay playback.
-- Recenter VR when a VR headset is connected.
-- Hover controls for descriptions and relevant keyboard or configured binding information.
-
-Track-camera sets are changed with **F3**. Free-camera keyboard access depends on the relevant AC system setting; its tooltip describes right-mouse look, arrow-key movement, and Ctrl/Shift speed modifiers.
+<table>
+  <tr>
+    <td valign="top" width="70%">
+      <ul>
+        <li>Cycle through driving cameras using <strong>Camera</strong>.</li>
+        <li>Switch to <strong>Free</strong>, <strong>Orbit</strong>, <strong>Heli</strong>, <strong>Track</strong>, or <strong>Car</strong> camera modes.</li>
+        <li>Toggle several external camera modes back to the last driving-camera mode.</li>
+        <li>Cycle through six car-camera positions by pressing <strong>Car</strong> again while that mode is active.</li>
+        <li>Select a driver from the session list to focus their car, with driver-tag colors in the list.</li>
+        <li>Return to your own car with <strong>Focus own view</strong>.</li>
+        <li>Jump to the previous or next lap during replay playback.</li>
+        <li>Recenter VR when a VR headset is connected.</li>
+        <li>Hover controls for descriptions and relevant keyboard or configured binding information.</li>
+      </ul>
+      <p>Track-camera sets are changed with <strong>F3</strong>. Free-camera keyboard access depends on the relevant AC system setting; its tooltip describes right-mouse look, arrow-key movement, and Ctrl/Shift speed modifiers.</p>
+    </td>
+    <td align="center" valign="top" width="30%">
+      <img src="https://github.com/user-attachments/assets/9c46fa1e-4eea-49e0-a3df-2802ca981d3f" width="240" alt="Camera controls and driver selection" />
+    </td>
+  </tr>
+</table>
 
 ## Crispy Driver Tags
 
@@ -92,12 +109,34 @@ Folder: `crispy_driver_tags`
 
 Customizable labels above cars, designed to keep driver information readable without keeping every label fully visible at all distances.
 
-<img width="336" height="283" alt="driver_tags" src="https://github.com/user-attachments/assets/be9583e6-f0c2-478b-a898-f0f6bc803178" />
-<img width="336" height="268" alt="driver_tags0" src="https://github.com/user-attachments/assets/6152bbcd-b3ba-4a15-9859-a5e9afaea2e6" />
-<img width="337" height="307" alt="driver_tags1" src="https://github.com/user-attachments/assets/6b1bd0ac-3e61-4e9d-96d5-a66c7dfb343d" />
-<img width="337" height="214" alt="driver_tags4" src="https://github.com/user-attachments/assets/5071d8d4-c48b-4097-843f-350cd48c3b59" />
-
-<br>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>General settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/be9583e6-f0c2-478b-a898-f0f6bc803178" width="320" alt="General settings" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Fade settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/6152bbcd-b3ba-4a15-9859-a5e9afaea2e6" width="320" alt="Fade settings" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Text settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/6b1bd0ac-3e61-4e9d-96d5-a66c7dfb343d" width="320" alt="Text settings" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Box settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/5071d8d4-c48b-4097-843f-350cd48c3b59" width="320" alt="Box settings" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" colspan="2">
+      <p><strong>Misc settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/f4597913-08c0-4bb9-8384-1f7c7e02fe84" width="320" alt="Misc settings and server blacklist" />
+    </td>
+  </tr>
+</table>
 
 - Driver names with optional national flags or custom driver icons.
 - Online ping readouts with colors and warning symbols for higher latency.
@@ -113,7 +152,6 @@ Customizable labels above cars, designed to keep driver information readable wit
 
 The blacklist and disable controls advise reloading the session to apply changes. The base visibility distance is combined with fade cutoffs, so labels can disappear before that maximum distance.
 
-<img width="339" height="484" alt="driver_tags5" src="https://github.com/user-attachments/assets/f4597913-08c0-4bb9-8384-1f7c7e02fe84" />
 
 ## Crispy FFB Controls `work in progress`
 
@@ -121,12 +159,28 @@ Folder: `crispy_ffb_controls`
 
 Manage car-specific force-feedback gain, tune native AC/CSP settings, and inspect the signals while driving.
 
-<img width="447" height="596" alt=" ffb_settings1" src="https://github.com/user-attachments/assets/b0da4435-a507-4a06-a1c9-7f9376991c3a" />
-<img width="445" height="542" alt=" ffb_settings2" src="https://github.com/user-attachments/assets/f51b8cdd-976d-4c2b-853e-356416fefe55" />
-<img width="443" height="822" alt=" ffb_settings3" src="https://github.com/user-attachments/assets/d712fc06-8dbc-467a-b94b-84dc15eb380b" />
-<img width="429" height="686" alt=" ffb_settings4" src="https://github.com/user-attachments/assets/40698cdf-ae65-449c-8914-491d59463ec4" />
-
-<br>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Quick Settings</strong></p>
+      <img src="https://github.com/user-attachments/assets/b0da4435-a507-4a06-a1c9-7f9376991c3a" width="320" alt="Quick Settings" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Graph</strong></p>
+      <img src="https://github.com/user-attachments/assets/f51b8cdd-976d-4c2b-853e-356416fefe55" width="320" alt="Graph" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Controls</strong></p>
+      <img src="https://github.com/user-attachments/assets/d712fc06-8dbc-467a-b94b-84dc15eb380b" width="320" alt="Controls" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Info</strong></p>
+      <img src="https://github.com/user-attachments/assets/40698cdf-ae65-449c-8914-491d59463ec4" width="320" alt="Info" />
+    </td>
+  </tr>
+</table>
 
 ### Per-car defaults
 
@@ -169,9 +223,14 @@ Folder: `crispy_pedals_ui`
 
 A compact input overlay with optional steering and force-feedback information.
 
-<img width="800" height="389" alt="pedals_ui" src="https://github.com/user-attachments/assets/2f423b7c-9410-4e8c-bcd5-edfd77786703" />
-
-<br>
+<table>
+  <tr>
+    <td align="center" valign="top">
+    <p><strong>Settings<strong><p/>
+      <img src="https://github.com/user-attachments/assets/2f423b7c-9410-4e8c-bcd5-edfd77786703" width="640" alt="Pedal overlay and settings" />
+    </td>
+  </tr>
+</table>
 
 - Clutch, brake, and throttle bars with smoothing.
 - Optional handbrake bar and/or a handbrake indicator over the brake bar.
@@ -193,11 +252,26 @@ Folder: `crispy_setup_loader`
 
 Remember a preferred saved setup for each car, independent of track, and attempt to restore it once per join.
 
-<img width="777" height="738" alt="auto_setup_s14" src="https://github.com/user-attachments/assets/eef88013-98fc-4229-9045-7cb202c8ca9e" />
-<img width="382" height="364" alt="auto_setup_e92" src="https://github.com/user-attachments/assets/d8adba10-1aa3-478f-9388-06aebb086525" />
-<img width="372" height="352" alt="auto_setup" src="https://github.com/user-attachments/assets/e74963ed-3b45-4258-9555-23be38dc1334" />
-
-<br>
+<table>
+  <tr>
+    <td align="center" valign="top">
+    <p><strong>Setup Page<strong><p/>
+      <img src="https://github.com/user-attachments/assets/eef88013-98fc-4229-9045-7cb202c8ca9e" width="560" alt="Setup Loader in the setup menu" />
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Remembered setup</strong></p>
+      <img src="https://github.com/user-attachments/assets/d8adba10-1aa3-478f-9388-06aebb086525" width="320" alt="Remembered setup" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Setup selection</strong></p>
+      <img src="https://github.com/user-attachments/assets/e74963ed-3b45-4258-9555-23be38dc1334" width="320" alt="Setup selection" />
+    </td>
+  </tr>
+</table>
 
 - Choose from the car's saved `.ini` setups in generic and track folders.
 - **Remember selected** stores a preferred setup for that car.
@@ -218,12 +292,28 @@ Folder: `crispy_teleport_to_friend`
 
 Quickly rejoin tagged friends using destinations supplied by the online server.
 
-<img width="368" height="321" alt="quick_tp1" src="https://github.com/user-attachments/assets/d79cfaf0-99a0-46c7-8ace-12e799f77335" />
-<img width="374" height="476" alt="quick_tp2" src="https://github.com/user-attachments/assets/05d73643-8fb7-4bf9-97c0-765229f7b8d7" />
-<img width="368" height="422" alt="quick_tp3" src="https://github.com/user-attachments/assets/026a5c13-611a-4de1-acc9-a37bfa7954f1" />
-<img width="464" height="444" alt="quick_tp4" src="https://github.com/user-attachments/assets/92b1b9c3-d4bd-4f76-b7dc-bc43263e35ca" />
-
-<br>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>No tagged friends online</strong></p>
+      <img src="https://github.com/user-attachments/assets/d79cfaf0-99a0-46c7-8ace-12e799f77335" width="320" alt="No tagged friends online" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Tagged friends online</strong></p>
+      <img src="https://github.com/user-attachments/assets/05d73643-8fb7-4bf9-97c0-765229f7b8d7" width="320" alt="Tagged friends online" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Prefer destinations ahead</strong></p>
+      <img src="https://github.com/user-attachments/assets/026a5c13-611a-4de1-acc9-a37bfa7954f1" width="320" alt="Prefer destinations ahead" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <p><strong>Closest available destination</strong></p>
+      <img src="https://github.com/user-attachments/assets/92b1b9c3-d4bd-4f76-b7dc-bc43263e35ca" width="320" alt="Closest available destination" />
+    </td>
+  </tr>
+</table>
 
 - Lists connected players tagged as friends in Content Manager, sorted by name.
 - Shows the chosen destination and its distance from each friend.
