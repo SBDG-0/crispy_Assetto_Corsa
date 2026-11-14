@@ -231,7 +231,7 @@ function script.windowSSettings()
     if ui.checkbox('Show Brakes', st.showBrakes) then
         st.showBrakes = not st.showBrakes
     end
-    if ui.checkbox(' Show Wipers', st.showWipers) then
+    if ui.checkbox('Show Wipers', st.showWipers) then
         st.showWipers = not st.showWipers
     end
     if ui.checkbox('Show Turning lights', st.showTurningLights) then
