@@ -351,9 +351,9 @@ Quickly rejoin tagged friends using destinations supplied by the online server.
 
 ## Reuse
 
-This software is provided "as is", without warranty of any kind. It is free to use, modify, and distribute provided you credit the author (SavageBulldog) and include a link back to the original repository.
+This software is provided “as is”, without warranty of any kind. You may use, modify, and distribute it, provided you credit SavageBulldogOG and include a link to this repository.
 
-[Original repository](https://github.com/SBDG-0/crispy_assetto_corsa)
+[crispy_assetto_corsa](https://github.com/SBDG-0/crispy_assetto_corsa)
 
 ---
 
